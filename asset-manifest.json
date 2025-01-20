@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Ishwarya-BI/static/css/main.040ca4c8.css",
-    "main.js": "/Ishwarya-BI/static/js/main.585fa460.js",
+    "main.js": "/Ishwarya-BI/static/js/main.22570eae.js",
     "index.html": "/Ishwarya-BI/index.html",
     "main.040ca4c8.css.map": "/Ishwarya-BI/static/css/main.040ca4c8.css.map",
-    "main.585fa460.js.map": "/Ishwarya-BI/static/js/main.585fa460.js.map"
+    "main.22570eae.js.map": "/Ishwarya-BI/static/js/main.22570eae.js.map"
   },
   "entrypoints": [
     "static/css/main.040ca4c8.css",
-    "static/js/main.585fa460.js"
+    "static/js/main.22570eae.js"
   ]
 }
