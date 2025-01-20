@@ -1,0 +1,103 @@
+/* General link styles */
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400; /* Changed to use a valid font weight */
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #fff; /* Set your preferred background color */
+    padding: 1rem; /* Add some padding for better spacing */
+    justify-content: center; /* Center items within the navbar */
+    z-index: 1;
+}
+
+/* Remove default padding and margin */
+.navbar .navbar-nav {
+    padding: 0; /* Remove any padding from navbar items */
+    margin: 0; /* Remove any margin from navbar items */
+}
+
+.nav-link {
+    color: black; /* Change link color */
+    /* background-color: #fff; */
+}
+
+/* Hamburger icon styling */
+.navbar-toggler {
+    border: none; /* Remove border for a cleaner look */
+}
+
+/* Optional: Add hover effect on nav links */
+.nav-link:hover {
+    color: purple; /* Change to your desired hover color */
+}
+
+/* Centering the hamburger menu icon */
+.navbar-toggler {
+    margin-left: auto; /* Aligns the button to the right */
+    margin-right: auto; /* Centering the button */
+}
+
+/* Optional: Adjust the navbar height for better alignment */
+.navbar {
+    height: 60px; /* Adjust height as necessary */
+}
+/* Adjust space around the logo */
+/* Adjust space around the logo */
+.dynamic-logo {
+    width: 10vw;
+    height: auto;
+    max-width: 150px;
+    min-width: 80px;
+    margin-right: 20px; /* Adds space to the right of the logo */
+  }
+  
+  @media (max-width: 768px) {
+    .dynamic-logo {
+      width: 15vw;
+      max-width: 120px;
+      margin-right: 50px; /* Increase space on smaller screens */
+    }
+    
+  }
+  
+  @media (max-width: 576px) {
+    .dynamic-logo {
+      width: 20vw;
+      max-width: 100px;
+      margin-right: 70px; /* Further increase space on mobile */
+    }
+  }
+  
+  /* Ensures spacing between the logo and the text container */
+  .navbar-text-container {
+    display: flex;
+    align-items: center; /* Vertically center the logo and text */
+  }
+  
+  .navbar-text {
+    margin-left: 10px; /* Space between the logo and text */
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-text {
+      margin-left: 30px; /* Increase space between logo and text for smaller screens */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .navbar-text {
+      margin-left: 50px; /* Further increase space for mobile screens */
+    }  
+  }
+  
+  @media (max-width: 991.98px) {
+    .nav-link {
+        color: rgb(199, 13, 13); /* Change link color */
+        background-color: #fff; 
+    }
+  }
+  
+  

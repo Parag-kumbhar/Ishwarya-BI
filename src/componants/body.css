@@ -1,0 +1,120 @@
+.img-fluid {
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    object-fit: cover; /* Scales the image to cover the entire screen, cropping if necessary */
+    display: block; /* Ensures no extra space around the image */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3rem; /* Base font size for large screens */
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    animation: slideDown 0.8s ease-out forwards; /* Apply the text animation */
+}
+
+@keyframes slideDown {
+    0% {
+        transform: translate(-50%, -50%) translateY(-100px); /* Start from 100px above and remain centered */
+        opacity: 0; /* Fully transparent */
+    }
+    100% {
+        transform: translate(-50%, -50%) translateY(0); /* End at its normal position and remain centered */
+        opacity: 1; /* Fully opaque */
+    }
+}
+
+
+
+@keyframes slideUp {
+  0% {
+      transform: translateY(30px); /* Start from 30px below */
+      opacity: 0; /* Fully transparent */
+  }
+
+  100% {
+      transform: translateY(0); /* End at its normal position */
+      opacity: 1; /* Fully opaque */
+  }
+}
+
+.slide-up {
+  animation: slideUp 0.7s ease-out forwards; /* Apply the animation */
+}
+  
+  /* .text-overlay::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(223, 153, 25);
+    margin-top: 8px;
+  } */
+
+  .custom-underline {
+    border-bottom: 2px solid orange; /* Change to your desired color and thickness */
+    padding-bottom: 5px; /* Adjust spacing between text and underline */
+    display: inline-block; /* Ensures the border only wraps around the text */
+}
+  
+  /* Media Queries */
+  
+  /* For medium devices like tablets (768px and above) */
+  @media (max-width: 1024px) {
+    .text-overlay {
+      font-size: 2.5rem; /* Slightly smaller text on tablets */
+    }
+  }
+  
+  /* For small devices like phones (576px and below) */
+  @media (max-width: 768px) {
+    .text-overlay {
+      font-size: 2rem; /* Smaller text for mobile screens */
+      padding: 15px;
+    }
+  
+    .img-fluid {
+      height: auto; /* Make sure the image scales properly on mobile */
+      width: 100%; /* Keep the width responsive */
+    }
+  }
+  
+  /* For very small devices (below 576px) */
+  @media (max-width: 576px) {
+    .text-overlay {
+      font-size: 1.5rem; /* Even smaller text for very small screens */
+      top: 80%; /* Adjust top position for better visibility */
+    }
+  
+    .img-fluid {
+      object-fit: contain; /* Adjust to fit smaller screens without cropping */
+    }
+  }
+
+  @keyframes slideUp {
+    0% {
+        transform: translateY(30px); /* Start from 30px below */
+        opacity: 0; /* Fully transparent */
+    }
+
+    100% {
+        transform: translateY(0); /* End at its normal position */
+        opacity: 1; /* Fully opaque */
+    }
+}
+
+.slide-up {
+    animation: slideUp 0.7s ease-out forwards; /* Apply the animation */
+}
+
+  
+
+
+  
