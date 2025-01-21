@@ -1,4 +1,4 @@
-import "./body.css";
+import "./Home.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faVolleyball,

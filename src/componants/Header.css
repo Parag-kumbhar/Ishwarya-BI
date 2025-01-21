@@ -101,3 +101,32 @@ a {
   }
   
   
+/* Ensure that the navbar and other content collapse properly on mobile screens */
+@media (max-width: 767px) {
+  .navbar-nav {
+    text-align: center;
+  }
+  .navbar-nav .nav-item {
+    padding: 10px;
+  }
+  .navbar-toggler {
+    border-color: purple;
+  }
+  
+}
+/* Add a slide down animation for the image when the navbar is toggled */
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Apply the animation when the navbar is open */
+.navbar-toggler.collapsed + .navbar-collapse + .dynamic-logo {
+  animation: slideDown 0.5s ease-in-out;
+}

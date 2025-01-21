@@ -7,6 +7,9 @@
     padding: 0;
   }
   
+
+  
+
   .text-overlay {
     position: absolute;
     top: 70%;
@@ -19,6 +22,11 @@
     text-align: center;
     animation: slideDown 0.8s ease-out forwards; /* Apply the text animation */
 }
+
+
+
+
+
 
 @keyframes slideDown {
     0% {
