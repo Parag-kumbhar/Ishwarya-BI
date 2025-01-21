@@ -13,8 +13,9 @@ export default function Home() {
         <img
           src="https://www.ishwaryainstitute.in/wp-content/uploads/2024/03/pexels-tima-miroshnichenko-5686052-scaled.jpg"
           className="img-fluid"
-          alt="Office image"
+          alt="Office"
         />
+
         <div>
           <h1 className="text-overlay custom-underline fw-bold">
             Well Equipped Classes
@@ -24,17 +25,16 @@ export default function Home() {
         </div>
         <div className="text-center position-absolute top-100 start-50 translate-middle">
           <button
-    type="button"
-    style={{
-        background: "purple",
-        border: "none",
-        marginTop: "-150px",
-    }}
-    className="btn btn-primary btn-lg slide-up" // Add the slide-up class
->
-    Join us Now
-</button>
-
+            type="button"
+            style={{
+              background: "purple",
+              border: "none",
+              marginTop: "-150px",
+            }}
+            className="btn btn-primary btn-lg slide-up" // Add the slide-up class
+          >
+            Join us Now
+          </button>
         </div>
       </div>
       <br />
@@ -57,9 +57,14 @@ export default function Home() {
       <div className="container mt-4">
         <div className="row">
           <div className="col-md-4 col-sm-6 mb-4">
-            <div className="card h-100"> {/* Ensure card is full height */}
+            <div className="card h-100">
+              {" "}
+              {/* Ensure card is full height */}
               <div className="card-body d-flex flex-column">
-                <div className="d-flex justify-content-center align-items-center" style={{ height: "30%" }}>
+                <div
+                  className="d-flex justify-content-center align-items-center"
+                  style={{ height: "30%" }}
+                >
                   <FontAwesomeIcon
                     icon={faBook}
                     size="3x"
@@ -68,7 +73,8 @@ export default function Home() {
                 </div>
                 <h5 className="card-title">Online Courses</h5>
                 <p className="card-text">
-                  Choose from hundreds of free training courses or pay to get certified to complete a course or specialization.
+                  Choose from hundreds of free training courses or pay to get
+                  certified to complete a course or specialization.
                 </p>
               </div>
             </div>
@@ -76,7 +82,10 @@ export default function Home() {
           <div className="col-md-4 col-sm-6 mb-4">
             <div className="card h-100">
               <div className="card-body d-flex flex-column">
-                <div className="d-flex justify-content-center align-items-center" style={{ height: "30%" }}>
+                <div
+                  className="d-flex justify-content-center align-items-center"
+                  style={{ height: "30%" }}
+                >
                   <FontAwesomeIcon
                     icon={faLightbulb}
                     size="3x"
@@ -85,7 +94,8 @@ export default function Home() {
                 </div>
                 <h5 className="card-title">Our Mission</h5>
                 <p className="card-text">
-                  Developing strong vision and mission statements can help stakeholders reach a common understanding.
+                  Developing strong vision and mission statements can help
+                  stakeholders reach a common understanding.
                 </p>
               </div>
             </div>
@@ -93,7 +103,10 @@ export default function Home() {
           <div className="col-md-4 col-sm-6 mb-4">
             <div className="card h-100">
               <div className="card-body d-flex flex-column">
-                <div className="d-flex justify-content-center align-items-center" style={{ height: "30%" }}>
+                <div
+                  className="d-flex justify-content-center align-items-center"
+                  style={{ height: "30%" }}
+                >
                   <FontAwesomeIcon
                     icon={faVolleyball}
                     size="3x"
@@ -102,7 +115,9 @@ export default function Home() {
                 </div>
                 <h5 className="card-title">Professional Certificate</h5>
                 <p className="card-text">
-                  Join the millions of students around the world who are already learning. Find an experienced and suitable instructor just for you.
+                  Join the millions of students around the world who are already
+                  learning. Find an experienced and suitable instructor just for
+                  you.
                 </p>
               </div>
             </div>

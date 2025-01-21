@@ -142,6 +142,5 @@ function ManagementProgram() {
     </div>
   );
 }
-
 export default ManagementProgram;
  

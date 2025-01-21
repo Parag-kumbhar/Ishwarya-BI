@@ -1,0 +1,69 @@
+.about-us {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  .hero {
+    background-color: #f4f4f4;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .mission,
+  .team,
+  .contact {
+    margin-top: 30px;
+  }
+  
+  .mission h2,
+  .team h2,
+  .contact h2 {
+    color: #444;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+  
+  .team-members {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  .team-member {
+    text-align: center;
+    width: 200px;
+  }
+  
+  .team-photo {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .contact p {
+    text-align: center;
+  }
+  
+  .contact a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .contact a:hover {
+    text-decoration: underline;
+  }
+  

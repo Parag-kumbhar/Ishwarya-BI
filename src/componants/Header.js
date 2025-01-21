@@ -41,16 +41,16 @@ function Navbar() {
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav d-flex gap-4">
                 <li className="nav-item">
-                  <Link  to="/">Home</Link>
+                  <Link  to="/Ishwarya-BI">Home</Link>
                 </li>
                 <li className="nav-item">
                   <Link to="/mp" className="nav-link">Management Programme</Link>
                 </li>
                 <li className="nav-item">
-                  <a href="/" className="nav-link">IT Programme</a>
+                  <a href="/it" className="nav-link">IT Programme</a>
                 </li>
                 <li className="nav-item">
-                  <a href="/" className="nav-link">About Us</a>
+                  <a href="/au" className="nav-link">About Us</a>
                 </li>
                 <li className="nav-item">
                 <Link  to="/cu" className="nav-link">Contact Us</Link>
