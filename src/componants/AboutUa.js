@@ -8,8 +8,9 @@ const AboutUs = () => {
       <section className="hero">
         <h1>About Us</h1>
         <p>
-          Welcome to Ishwarya Institute of Management and Technology ! We're dedicated to providing the best
-          services and products to our customers.
+          Welcome to Ishwarya Institute of Management and Technology ! We're
+          dedicated to providing the best services and products to our
+          customers.
         </p>
       </section>
 
